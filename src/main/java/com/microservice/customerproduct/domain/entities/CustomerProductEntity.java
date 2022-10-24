@@ -1,9 +1,10 @@
-package com.microservice.customerproduct.domain;
+package com.microservice.customerproduct.domain.entities;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Date;
 import java.util.List;
 
 @Document(collection = "customerProduct")
@@ -13,9 +14,10 @@ public class CustomerProductEntity {
     private String id;
     private String idCustomer;
     private String idProduct;
-    private String customerType;
-    private String balance;
+    private float balance;
     private List<HolderEntity> holder;
     private List<SignatoryEntity> signatory;
+    private Date createAt;
+    private Date updateAt;
     private String status;
 }

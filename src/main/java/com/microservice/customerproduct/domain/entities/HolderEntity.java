@@ -1,10 +1,11 @@
-package com.microservice.customerproduct.domain;
+package com.microservice.customerproduct.domain.entities;
 
 import lombok.Data;
 
 @Data
-public class SignatoryEntity {
+public class HolderEntity {
     private String name;
     private String documentType;
     private String documentNumber;
+
 }

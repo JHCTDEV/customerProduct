@@ -14,7 +14,8 @@ public class CustomerProductEntity {
     private String id;
     private String idCustomer;
     private String idProduct;
-    private float balance;
+    private Float balance;
+    private Integer maximumTransactions;
     private List<HolderEntity> holder;
     private List<SignatoryEntity> signatory;
     private Date createAt;

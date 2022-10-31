@@ -1,4 +1,4 @@
-package com.microservice.customerproduct.domain.services;
+package com.microservice.customerproduct.domain.repositories;
 
 import com.microservice.customerproduct.domain.entities.CustomerProductEntity;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;

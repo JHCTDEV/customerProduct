@@ -14,7 +14,7 @@ public class CustomerProductDto {
     private String id;
     private String idCustomer;
     private String idProduct;
-    private String balance;
+    private Float balance;
     private List<HolderDto> holder;
     private List<SignatoryDto> signatory;
     private Date createAt;

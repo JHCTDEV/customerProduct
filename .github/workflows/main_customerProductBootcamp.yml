@@ -27,7 +27,7 @@ jobs:
       with:
         username: ${{ secrets.AzureAppService_ContainerUsername_5ca6d22df3b544a79f9552da247a84aa }}
         password: ${{ secrets.AzureAppService_ContainerPassword_dded2d76694343ad8349633eb0a19225 }}
-        repository: jhctdev/customerProduct-service
+        repository: jhctdev/customerproduct-service
         tags: ${{ github.sha }}
 
   deploy:

@@ -17,7 +17,7 @@ import java.util.function.Function;
 
 @Repository
 public class CustomerRestRepository implements ICustomerRestRepository {
-    private String uriBase = "http://API-GATEWAY";
+    private String uriBase = "http://CUSTOMER-SERVICE";
     @Autowired
     private WebClient.Builder builder;
 
